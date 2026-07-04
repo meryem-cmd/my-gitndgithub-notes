@@ -782,3 +782,14 @@ git stash pop
 
 GITHUB:
 saves the repo
+
+git branch -M main 
+it changes the master name to main
+git remote add origin https://github.com/meryem-cmd/my-gitndgithub-notes
+origin is the name given to the remote repo i.e. github one 
+git remote -v
+origin  https://github.com/meryem-cmd/my-gitndgithub-notes (fetch)
+origin  https://github.com/meryem-cmd/my-gitndgithub-notes (push)
+this gives the relation that what repo are you fetching and what u are pushing in github
+git push -u origin main 
+
